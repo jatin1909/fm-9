@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;700;900&display=swap');
+*{
+	margin: 0; padding: 0;
+	font-family: 'Red Hat Display', sans-serif;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+body{
+	background-image:url('images/pattern-background-desktop.svg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 10px 9%;
+	
+}
+
+.container .box{
+	margin-top: 70px;
+	border:px solid rgba(0,0,0,.1);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	max-width: 340px;
+	background-color: #fff;
+	border-radius: 12px;
+}
+
+.container .box .image img{
+	width: 100%;
+	object-fit: cover;
+	border-top-left-radius : 12px;
+	border-top-right-radius : 12px;
+}
+
+
+.container .box h1{
+	font-size: 24px;
+	padding-top: 30px;
+	color: hsl(223, 47%, 23%);
+}
+
+
+.container .box p{
+	padding-top: 20px;
+	font-size: 15px;
+	color: hsl(224, 23%, 55%);
+	line-height: 1.6;
+}
+
+.music{
+	display:flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	padding: 0px 4%;
+	background:  hsl(225, 100%, 98%);
+	border-radius: 5px;
+	max-width: 80%;
+	margin: 20px 20px;
+}
+
+.music #mu{
+	position: relative;
+	top: 10px;
+}
+
+.music .annu{
+	position: relative;
+	padding-right: 80px;
+	align-items: center;
+}
+
+.music .annu h4{
+	gap:10px;
+	font-size: 14px;
+	margin:;
+	position: relative;
+	bottom: -20px;
+}
+
+.music .annu p{
+	font-size: 13px;
+	margin:10px;
+
+}
+
+button{
+	padding: 14px 50px;
+	align-items: center;
+	width: 80%;
+	margin-right: -20px;
+	background:hsl(245, 75%, 52%);
+	border-radius: .5rem;
+	color: #fff;
+	box-shadow: 1px 3px 14px rgba(0,0,0,.5);
+	cursor: pointer;
+	border: none;
+}
+
+.bt{
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: bold;
+
+ }
+
+	@media(max-width: 426px){
+	
+	
+    .music{
+    	padding: 1px 4%;
+    	
+    }
+
+
+     #ch{
+    	font-size: 12px;
+    	position: relative;
+    	right: 20px;
+}
+}
